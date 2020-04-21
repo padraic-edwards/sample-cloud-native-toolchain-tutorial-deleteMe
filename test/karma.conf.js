@@ -4,20 +4,6 @@ module.exports = function(config) {
     // (eg. files, exclude)
     basePath: '..',
         // you can define custom flags
-    
-    customLaunchers: {
-      'PhantomJS_custom': {
-         base: 'PhantomJS',
-         options: {
-           windowName: 'my-window',
-           settings: {
-           webSecurityEnabled: false
-              },
-            },
-           flags: ['--load-images=true'],
-           debug: true
-      }
-    },
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
@@ -102,7 +88,7 @@ module.exports = function(config) {
     // start these browsers
     // available browser launchers:
     // https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS_custom'],
+    browsers: ['PhantomJS'],
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
