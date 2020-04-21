@@ -3,6 +3,21 @@ module.exports = function(config) {
     // base path that will be used to resolve all patterns
     // (eg. files, exclude)
     basePath: '..',
+        // you can define custom flags
+    
+    customLaunchers: {
+      'PhantomJS_custom': {
+         base: 'PhantomJS',
+         options: {
+           windowName: 'my-window',
+           settings: {
+           webSecurityEnabled: false
+              },
+            },
+           flags: ['--load-images=true'],
+           debug: true
+      }
+    },
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
