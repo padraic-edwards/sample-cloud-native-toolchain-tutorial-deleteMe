@@ -35,6 +35,7 @@
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "buffer": "^4.9.1",
     "cf-deployment-tracker-client": "0.1.4",
     "commander": "^2.20.0",
     "cookie-parser": "~1.4.4",
