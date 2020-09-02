@@ -34,7 +34,7 @@
   ],
   "main": "app.js",
   "dependencies": {
-    "bl":"4.0.1",
+    "bl":"2.2.1",
     "body-parser": "^1.19.0",
     "cf-deployment-tracker-client": "0.1.4",
     "commander": "^2.20.0",
